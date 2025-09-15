@@ -13,7 +13,7 @@ const UserLogout = () => {
 
     useEffect(() => {
         if (!token) {
-            navigate('/login');
+            navigate('/');
             return;
         }
 
